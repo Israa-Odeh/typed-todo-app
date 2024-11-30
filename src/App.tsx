@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AppShellLayout from "./layouts/AppShellLayout";
+import TodoKeeper from "./pages";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <AppShellLayout>
+      <TodoKeeper />
+    </AppShellLayout>
   );
 }
 

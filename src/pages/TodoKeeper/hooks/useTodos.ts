@@ -1,9 +1,9 @@
 import {
   getTodosFromLocalStorage,
   saveTodosToLocalStorage,
-} from "src/utils/localStorage";
+} from "../utils/localStorage";
 import { useState, useEffect } from "react";
-import { Todo } from "src/types";
+import { Todo } from "../type";
 
 export function useTodos() {
   const [todos, setTodos] = useState<Todo[]>(() => getTodosFromLocalStorage());

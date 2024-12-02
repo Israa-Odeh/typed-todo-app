@@ -1,1 +1,1 @@
-export { default } from "./TodoKeeper";
+export { default as TodoKeeper } from "./TodoKeeper";

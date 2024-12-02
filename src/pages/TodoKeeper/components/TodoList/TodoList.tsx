@@ -1,4 +1,4 @@
-import { Todo } from "src/types";
+import { Todo } from "src/pages/TodoKeeper/type";
 import TodoItem from "./components";
 import "./TodoList.css";
 

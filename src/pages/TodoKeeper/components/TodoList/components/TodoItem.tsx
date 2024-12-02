@@ -1,5 +1,5 @@
 import { MdDelete } from "react-icons/md";
-import { Todo } from "src/types";
+import { Todo } from "src/pages/TodoKeeper/type";
 import "./TodoItem.css";
 
 type TodoItemProps = {

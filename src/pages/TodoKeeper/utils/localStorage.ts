@@ -1,4 +1,4 @@
-import { Todo } from "src/types";
+import { Todo } from "../type";
 
 export const getTodosFromLocalStorage = () => {
   const storedTodos = localStorage.getItem("todos");

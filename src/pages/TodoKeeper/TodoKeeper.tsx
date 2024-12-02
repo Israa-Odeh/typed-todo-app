@@ -1,6 +1,6 @@
 import { GrAddCircle } from "react-icons/gr";
 import { useState } from "react";
-import { useTodos } from "src/hooks/useTodos";
+import { useTodos } from "./hooks/useTodos";
 import { TodoList } from "./components";
 import "./TodoKeeper.css";
 
